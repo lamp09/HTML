@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+header {
+    background-color: rgb(100,200,100);
+    width: 80%;
+    margin-right: auto; /* header를 오른쪽 자동 정렬 */
+    margin-left: auto; /* header를 왼쪽 자동 정렬 */
+    padding: 10px; 
+    overflow: hidden;
+    /* padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px; */
+    /* padding: 10, 20, 50, 60; */ /* padding은 글자와 background사이의 간격 */
+
+}
+
+h1 {
+    /* background-color: rgb(200,100,100); */
+    font-size: 2em;
+    
+}
+
+/* header의 자손인 h1 태그에 적용/ header > h1 이것도 사용 가능 */
+header h1 {
+    /* background-color: rgb(100, 100, 200); */
+    width: 40%;
+    color: aliceblue;
+    float: left;
+}
+
+header > nav{
+    /* background-color: azure; */
+    width: 40%;
+    float: right;
+
+}
+
+nav ul {
+    list-style-type: none; /* 점 없애기 */
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+
+a {     /* nav a   or   nav ul li a  */
+   text-decoration: none;
+   color: aquamarine; 
+}
