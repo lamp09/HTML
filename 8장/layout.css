@@ -32,7 +32,7 @@ header h1 {
 
 header > nav{
     /* background-color: azure; */
-    width: 40%;
+    width: 30%;
     float: right;
 
 }
@@ -50,4 +50,66 @@ nav ul li {
 a {     /* nav a   or   nav ul li a  */
    text-decoration: none;
    color: aquamarine; 
+}
+
+section {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid #333;
+    /* border-width: 2px; */
+    /* border-style: ; */
+    /* border-color:blanchedalmond ; */
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -3px 3px 3px 0px gray; /* x , y, 번짐, 흐림 순서 */
+}
+
+h3 {
+    font-size: 1.3em;
+    padding: 15px 0px 15px 10px;
+    box-shadow: -5px 0px 0px 0px blueviolet;
+}
+
+p {
+    line-height: 30px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+dl {
+    line-height: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+dt {
+    color: skyblue;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+ul {
+    line-height: 30px;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-right: auto; /* header를 오른쪽 자동 정렬 */
+    margin-left: auto; /* header를 왼쪽 자동 정렬 */
+    padding: 10px;
+    overflow: hidden;
+}
+footer p {
+    font-size: 12px;
+    line-height: 14px
 }
