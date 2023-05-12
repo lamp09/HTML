@@ -1,0 +1,75 @@
+* {
+    font-family: "맑은 고딕";
+    margin: 5px;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    
+
+}
+nav {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: white;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+section {
+    width: 48%;
+    background-color: violet;
+    height: 200px;
+    border: 3px dotted black;
+    float: left;
+}
+
+#s3, footer {
+    clear: both;
+}
+
+h1/* c1도 가능 */ {
+    padding: 10px;
+    color: white;
+    background-color: hotpink;
+}
+#s1 {
+    background-color: blue;
+}
+
+#s2 {
+    background-color: skyblue;
+}
+#s3 {
+    background-color: pink;
+}
+#s4 {
+    background-color: palevioletred;
+}
+#s5 {
+    background-color:  khaki;
+}
+#s6 {
+    background-color: salmon;
+}
