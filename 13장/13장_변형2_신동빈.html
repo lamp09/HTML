@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transform 1 - 신동빈</title>
+        <style>
+            .origin {
+                width: 200px;
+                height: 134px;
+                border: 1px solid black;
+                margin: 40px;
+                float: left;
+            }
+            .scalex:hover {
+                -webkit-transform: scalex(1.2);
+                -ms-transform: scalex(1.2);
+                -moz-transform: scalex(1.2);
+                -o-transform: scalex(1.2);
+                transform: scalex(1.2);
+            }
+            .scaley:hover {
+                -webkit-transform: scaley(1.2);
+                -ms-transform: scaley(1.2);
+                -moz-transform: scaley(1.2);
+                -o-transform: scaley(1.2);
+                transform: scaley(1.2);
+            }
+            .scalexy:hover {
+                -webkit-transform: scale(0.7);
+                -ms-transform: scale(0.7);
+                -moz-transform: scale(0.7);
+                -o-transform: scale(0.7);
+                transform: scale(0.7);
+            }
+        </style>
+    </head>
+    <body>
+       <div class="origin">
+        <div class="scalex">
+            <img src="images/fruit.jpg">
+        </div> 
+       </div>
+       <div class="origin">
+        <div class="scaley">
+            <img src="images/fruit.jpg">
+        </div> 
+       </div> 
+       <div class="origin">
+        <div class="scalexy">
+            <img src="images/fruit.jpg">
+        </div> 
+       </div> 
+    </body>
+</html>
