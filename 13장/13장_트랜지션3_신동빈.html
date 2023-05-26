@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transform 1 - 신동빈</title>
+        <style>
+            .tr {
+                width: 200px;
+                height: 200px;
+                margin: 30px;
+                background-color: aquamarine;
+                transition-property: width, height, background-color, transform; /* all 적으면 적지 않아도 전부 적용 가능 
+                                                                            일부만 적용하려면 전부 다 개별적으로 적을 것*/ 
+                transition-duration: 2s;
+                
+            }
+            .tr:hover {
+                width: 300px;
+                height: 300px; 
+                background-color: blueviolet;
+                transform: rotate(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tr">
+           <h1>신동빈</h1>
+        </div>
+        
+    </body>
+</html>
