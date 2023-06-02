@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>애니메이션 1 - 신동빈</title>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                margin-top: 50px;
+                background-color: violet;
+                animation-name: change-shape;
+                animation-duration: 1s;
+                margin-left: 100px;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                
+            }
+            @keyframes change-shape {
+                from {
+                    transform-style: flat;
+                    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                }
+                50% {
+                    transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+                }
+                to {
+                    transform-style: flat;
+                    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+
+        </div>
+    </body>
+</html>
